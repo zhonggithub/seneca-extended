@@ -1,4 +1,4 @@
-const pkg = require(`${process.env.PWD}/package`)
+const pkg = require(`${process.cwd()}/package`)
 const { decorateSeneca, createSenecaLogger } = require(`${__dirname}/utils`)
 
 module.exports = (baseConfig = {}) => {
